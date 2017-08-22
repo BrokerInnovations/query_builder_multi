@@ -51,7 +51,7 @@
         vm.multi1 = '';
         //vm.header = true;
 
-        //document.getElementByClass("md-input").attributes["type"] = "file";
+        
 
         $scope.$watch('homeVm.result', function(){
             //console.log(vm.result);

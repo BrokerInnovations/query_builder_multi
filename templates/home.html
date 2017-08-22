@@ -133,7 +133,7 @@
       <ng-csv-import content="homeVm.csv"
       	material
       	separator="homeVm.seperator"
-      	result="homeVm.result">
+      	result="homeVm.result" ng-class="{'toggle': homeVm.rowMulti}">
   	  </ng-csv-import>
       <table>
         <thead>
