@@ -17,7 +17,6 @@
         vm.addLevel = addLevel;
         vm.addZone = addZone;
         vm.addRow = addRow;
-        vm.submit = submit;
         vm.addZoneSection = addZoneSection;
         vm.addZoneEvent = addZoneEvent;
         vm.addSectionEvent = addSectionEvent;
@@ -51,7 +50,7 @@
         vm.multi1 = '';
         //vm.header = true;
 
-        
+
 
         $scope.$watch('homeVm.result', function(){
             //console.log(vm.result);
@@ -67,9 +66,7 @@
             }
         });
 
-        function submit() {
-          console.log(vm.multi1, vm.multi);
-        }
+
 
 
         function zoneSubmit() {
